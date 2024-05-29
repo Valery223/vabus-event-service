@@ -29,9 +29,7 @@ class VaBus:
         await self._session.__aexit__(exc_type, exc_val, exc_tb)
 
     async def get_event(self) -> Event:
-        # Placeholder for getting an event from the bus
         pass
 
     async def send_metric(self, metric: Metric):
-        # Placeholder for sending a metric to the bus
         pass

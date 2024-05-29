@@ -13,6 +13,9 @@ class Aggregator:
         pass
 
     async def send_to_storage(self):
+        '''
+        send to kafka or postgresql
+        '''
         pass
 
     async def run(self):
